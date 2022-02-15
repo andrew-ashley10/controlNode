@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>controlNode</name>
+    <version>0.0.1</version>
+
+    <description>
+
+    control for tilt hex 
+    </description>
+
+    <maintainer email = "ata33@pitt.edu">Andrew A</maintainer>
+    <license>code under development, no use without permission</license>
+
+
+      <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>ompl</build_depend>
+    <build_depend>core_octomap_map_representation</build_depend>
+        <build_depend>tflib</build_depend>
+  <build_depend>pcl_ros</build_depend>
+    <build_depend>pcl_conversions</build_depend>
+
+
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+
+
+    <build_export_depend>tflib</build_export_depend>
+      <exec_depend>tflib</exec_depend>
+
+<build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  
+
+
+  
+  <build_export_depend>ompl</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  
+ <exec_depend>pcl_conversions</exec_depend>
+   <exec_depend>pcl_ros</exec_depend>
+
+  
+  <exec_depend>ompl</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+
+
+
+</package>

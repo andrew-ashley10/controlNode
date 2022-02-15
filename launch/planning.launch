@@ -1,0 +1,13 @@
+<launch>
+
+    <node name = "controlNode" pkg="controlNode" type="controlNode" output = "screen" >
+
+
+
+    <param name="execute_target" type="double" value="0.5" />
+        <param name="map_representation" value="OctomapMapRepresentation" />
+
+    </node>
+
+
+</launch>

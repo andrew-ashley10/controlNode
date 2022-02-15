@@ -1,0 +1,70 @@
+////////////////////////
+    //TEST WAYPOINT MISSION
+    ////////////////////////
+
+    // mavros_msgs::WaypointPush wp_push_srv; // List of Waypoints
+    // mavros_msgs::Waypoint wp;
+    /*
+        uint8 FRAME_GLOBAL=0
+        uint8 FRAME_LOCAL_NED=1
+        uint8 FRAME_MISSION=2
+        uint8 FRAME_GLOBAL_REL_ALT=3
+        uint8 FRAME_LOCAL_ENU=4
+        uint8 frame
+        uint16 command
+        bool is_current
+        bool autocontinue
+        float32 param1
+        float32 param2
+        float32 param3
+        float32 param4
+        float64 x_lat
+        float64 y_long
+        float64 z_alt
+    */
+    // WP 0
+    // wp.frame          = mavros_msgs::Waypoint::FRAME_GLOBAL_REL_ALT;
+    // wp.command        = mavros_msgs::CommandCode::NAV_TAKEOFF;
+    // wp.is_current     = true;
+    // wp.autocontinue   = true;
+    // wp.x_lat          = 47.3977418;
+    // wp.y_long         = 8.5455936;
+    // wp.z_alt          = 10;
+    // wp_push_srv.request.waypoints.push_back(wp);
+    // // WP 1
+    // wp.frame          = mavros_msgs::Waypoint::FRAME_GLOBAL_REL_ALT;
+    // wp.command        = mavros_msgs::CommandCode::NAV_LOITER_TIME;
+    // wp.is_current     = false;
+    // wp.autocontinue   = true;
+    // wp.x_lat          = 47.3977420;
+    // wp.y_long         = 8.5455931;
+    // wp.z_alt          = 10;
+	// wp.param1			= 10;
+	// wp.param3			= 2;
+	// wp.param4			= 1;
+    // wp_push_srv.request.waypoints.push_back(wp);
+    
+    // // WP 2
+    // wp.frame          = mavros_msgs::Waypoint::FRAME_GLOBAL_REL_ALT;
+    // wp.command        = mavros_msgs::CommandCode::NAV_WAYPOINT;
+    // wp.is_current     = false;
+    // wp.autocontinue   = true;
+    // wp.x_lat          = 47.3977423;
+    // wp.y_long         = 8.5455939;
+    // wp.z_alt          = 10;
+    // wp_push_srv.request.waypoints.push_back(wp);
+
+    // // WP 3
+    // wp.frame          = mavros_msgs::Waypoint::FRAME_MISSION;
+    // wp.command        = mavros_msgs::CommandCode::NAV_RETURN_TO_LAUNCH;
+    // wp.is_current     = false;
+    // wp.autocontinue   = true;
+    // wp.x_lat          = 0;
+    // wp.y_long         = 0;
+    // wp.z_alt          = 0;
+    // wp_push_srv.request.waypoints.push_back(wp);
+
+
+
+    //SEND WAYPOINTS TO VEHICLE
+   //baseRobot.sendWaypoints(wp_push_srv); 
